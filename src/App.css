@@ -1,0 +1,150 @@
+.App {
+  width: 1366px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0px auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#data {
+  padding-top: 70px;
+}
+.cryptoDiv {
+  width: 50%;
+  padding: 10px;
+}
+.cryptoTable {
+  background-color: #FF9E00;
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+}
+.stocksTable {
+  background-color: #FF4300;
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+}
+.stocksDiv {
+  width: 50%;
+  padding: 10px;
+}
+table {
+  margin: 0px auto;
+}
+.tableTitle {
+  text-align: center;
+}
+td {
+  padding: 8px;
+}
+th {
+  text-align: left;
+  padding: 5px;
+}
+.rowsTable1:nth-child(odd) {
+  background-color: #FCC587;
+}
+.rowsTable2:nth-child(odd) {
+  background-color: #FC8787;
+}
+button {
+  margin: 20px 0px;
+  background-color: #007CE9;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.App {
+  width: 1366px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 0;
+  margin: 0px auto;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#data {
+  padding-top: 70px;
+}
+.cryptoDiv {
+  width: 50%;
+  padding: 10px;
+}
+.cryptoTable {
+  background-color: #FF9E00;
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+}
+.stocksTable {
+  background-color: #FF4300;
+  padding: 20px;
+  width: 400px;
+  color: #ffffff;
+}
+.stocksDiv {
+  width: 50%;
+  padding: 10px;
+}
+table {
+  margin: 0px auto;
+}
+.tableTitle {
+  text-align: center;
+}
+td {
+  padding: 8px;
+}
+th {
+  text-align: left;
+  padding: 5px;
+}
+.rowsTable1:nth-child(odd) {
+  background-color: #FCC587;
+}
+.rowsTable2:nth-child(odd) {
+  background-color: #FC8787;
+}
+button {
+  margin: 20px 0px;
+  background-color: #007CE9;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+

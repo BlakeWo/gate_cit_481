@@ -1,0 +1,217 @@
+/* CSS files add styling rules to your content */
+
+/* GLOBAL VALUES */
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+p {
+  font-size: 1.2em;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4em;
+  font-style: italic;
+  color: darkblue;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size:2.5em;
+  text-align: center;
+  color: #000; 
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #1C2541; 
+}
+nav a {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.4em;
+  color: white;
+  margin: 0;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: white;
+}
+
+nav a:hover {
+  background-color: #4C6085;
+  color: white;
+}
+
+.content-wrap {
+  text-align: center;
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.middle {
+  margin-top: 0;
+  text-align: center;
+  
+}
+
+.team {
+  font-size: 1.em;
+  width: 25%;
+  float: left;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+  
+}
+
+.in {
+  display: inline;
+}
+
+/* THE BUTTONS 
+----------------------------------*/
+.btn {
+  border: none;
+  background-color: silver;
+  padding: 10px 28px;
+  font-size: 14px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.button-container{
+  position: relative;
+   
+}
+.center-button {
+  margin: 0;
+  position: absolute;
+  top: -75px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.switch{
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  font-size: 3em;
+  cursor:pointer;
+}
+
+#crypto {
+  display: block;
+}
+#stock {
+  display: none;
+}
+
+/* TABLE STYLING
+----------------------------------*/
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid;
+  box-shadow: 2px 2px 12px black, -1px -1px 8px lightgray;
+}
+
+tr {
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+th, td {
+  padding: 32px 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  padding: 20px !important;
+}
+
+td {
+  padding: 20px !important;
+}
+
+tr:not(:first-child):hover {
+  background-color: lightblue;
+  transform: scale(1.05);
+  box-shadow: 2px 2px 12px rgba(0,0,0,0), -1px -1px 8px rgba(0,0,0,0);
+}
+
+.title {
+  background-color: lightgray;
+  font-size: 1.35em;
+}
+
+.center {
+  margin: auto;
+}
+
+caption {
+  padding: 25px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: black;
+}
+
+/* SECTIONS STYLING
+----------------------------------*/
+header {
+  display:block;
+  /*background-image: url("https://cdn.glitch.com/8f15a842-54e4-49d7-8ffe-5d3feabed128%2FLibrary.JPG?1551989023386"); */
+  background-size:100%;
+  background-color: #717C89;
+  margin-top: 0;
+  padding-top: 55px;
+}
+
+section#filler {
+  margin: 0 auto;
+  background: white;
+  padding: 250px;
+}
+
+section#project {
+  padding-top: 50px;
+  background: #F5F5F5;
+}
+
+section#group {
+  /*background-image: url("https://cdn.glitch.com/c789d61f-3d2c-4485-9a9c-84860a7a8be3%2Fsurface.jpg?v=1620432328959");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;*/
+  margin-bottom: auto;
+  background: #F5F5F5;
+  padding-top: 15px;
+  padding-bottom: 350px;
+}
+
+
+
